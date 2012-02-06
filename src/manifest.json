@@ -1,0 +1,8 @@
+{
+  "name": "ct10000sb",
+  "version": "1.0",
+  "description": "ct10000 sb",
+  "background_page": "background.html",
+  "permissions": [
+   "history", "tabs", "http://*/"]
+}
