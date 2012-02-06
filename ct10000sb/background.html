@@ -8,7 +8,7 @@
     }
 
     chrome.tabs.onUpdated.addListener(function(tabid, info, tab) {
-        console.log(info.url +' ' + tab.url);
+        //console.log(info.url +' ' + tab.url);
         if (info.url) {
             updateUrl(tab);
         }
